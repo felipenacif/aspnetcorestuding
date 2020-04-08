@@ -1,0 +1,46 @@
+﻿@page
+@model AppStartCMD.Pages.Sections.Materias.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Materia</h1>
+<h3>@Model.SubTituloTela</h3>
+
+@if (Model.Mensagem != null)
+{
+    <div class="alert alert-info">
+        @Model.Mensagem
+    </div>
+}
+
+<div style="padding:2em 0;">
+    <a class="btn btn-primary" asp-page="./Edit">Criar Novo</a>
+</div>
+
+<table class="table">
+    <tr>
+        <th>Titulo</th>
+        <th>Resumo</th>
+        <th>Data de Criacao</th>
+        <th>Publicado?</th>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+    </tr>
+
+    @foreach (var item in Model.Materias)
+    {
+        <tr>
+            <td>@item.Titulo</td>
+            <td>@item.Resumo</td>
+            <td>@item.DataCriacao</td>
+            <td>@item.Publicado</td>
+            <td><a class="btn btn-primary" asp-page="./Detail" asp-route-materiaId="@item.Id">Detalhes</a></td>
+            <td><a class="btn btn-warning" asp-page="./Edit" asp-route-materiaId="@item.Id">Editar</a></td>
+            <td><a class="btn btn-danger" asp-page="./Delete" asp-route-materiaId="@item.Id">Deletar</a></td>
+        </tr>
+    }
+
+</table>
+
+<vc:materia-count></vc:materia-count>

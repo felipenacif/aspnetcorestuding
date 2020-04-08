@@ -1,0 +1,228 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Felipe\\Desktop\\GIT\\aspnetcorestuding\\AppStartCMD\\AppStartCMD.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Felipe\\Desktop\\GIT\\aspnetcorestuding\\AppStartCMD.Core\\AppStartCMD.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\GIT\\aspnetcorestuding\\AppStartCMD.Core\\AppStartCMD.Core.csproj",
+        "projectName": "AppStartCMD.Core",
+        "projectPath": "C:\\Users\\Felipe\\Desktop\\GIT\\aspnetcorestuding\\AppStartCMD.Core\\AppStartCMD.Core.csproj",
+        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Felipe\\Desktop\\GIT\\aspnetcorestuding\\AppStartCMD.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Felipe\\Desktop\\GIT\\aspnetcorestuding\\AppStartCMD.Data\\AppStartCMD.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\GIT\\aspnetcorestuding\\AppStartCMD.Data\\AppStartCMD.Data.csproj",
+        "projectName": "AppStartCMD.Data",
+        "projectPath": "C:\\Users\\Felipe\\Desktop\\GIT\\aspnetcorestuding\\AppStartCMD.Data\\AppStartCMD.Data.csproj",
+        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Felipe\\Desktop\\GIT\\aspnetcorestuding\\AppStartCMD.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Felipe\\Desktop\\GIT\\aspnetcorestuding\\AppStartCMD.Core\\AppStartCMD.Core.csproj": {
+                "projectPath": "C:\\Users\\Felipe\\Desktop\\GIT\\aspnetcorestuding\\AppStartCMD.Core\\AppStartCMD.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Felipe\\Desktop\\GIT\\aspnetcorestuding\\AppStartCMD\\AppStartCMD.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\GIT\\aspnetcorestuding\\AppStartCMD\\AppStartCMD.csproj",
+        "projectName": "AppStartCMD",
+        "projectPath": "C:\\Users\\Felipe\\Desktop\\GIT\\aspnetcorestuding\\AppStartCMD\\AppStartCMD.csproj",
+        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Felipe\\Desktop\\GIT\\aspnetcorestuding\\AppStartCMD\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Felipe\\Desktop\\GIT\\aspnetcorestuding\\AppStartCMD.Data\\AppStartCMD.Data.csproj": {
+                "projectPath": "C:\\Users\\Felipe\\Desktop\\GIT\\aspnetcorestuding\\AppStartCMD.Data\\AppStartCMD.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.2, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.0-preview1-19509-03, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

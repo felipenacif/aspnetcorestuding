@@ -1,0 +1,13 @@
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Data\bin\Debug\netcoreapp3.1\AppStartCMD.Data.deps.json
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Data\bin\Debug\netcoreapp3.1\AppStartCMD.Data.runtimeconfig.json
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Data\bin\Debug\netcoreapp3.1\AppStartCMD.Data.runtimeconfig.dev.json
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Data\bin\Debug\netcoreapp3.1\AppStartCMD.Data.dll
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Data\bin\Debug\netcoreapp3.1\AppStartCMD.Data.pdb
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Data\bin\Debug\netcoreapp3.1\AppStartCMD.Core.dll
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Data\bin\Debug\netcoreapp3.1\AppStartCMD.Core.pdb
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Data\obj\Debug\netcoreapp3.1\AppStartCMD.Data.csprojAssemblyReference.cache
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Data\obj\Debug\netcoreapp3.1\AppStartCMD.Data.AssemblyInfoInputs.cache
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Data\obj\Debug\netcoreapp3.1\AppStartCMD.Data.AssemblyInfo.cs
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Data\obj\Debug\netcoreapp3.1\AppStartCMD.Data.csproj.CopyComplete
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Data\obj\Debug\netcoreapp3.1\AppStartCMD.Data.dll
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Data\obj\Debug\netcoreapp3.1\AppStartCMD.Data.pdb

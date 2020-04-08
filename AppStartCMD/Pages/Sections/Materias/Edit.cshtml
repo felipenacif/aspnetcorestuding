@@ -1,0 +1,44 @@
+﻿@page "{materiaId:int?}"
+@model AppStartCMD.Pages.Sections.Materias.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+@if (Model.Materia.Id > 0)
+{
+    <h1>Editando a matéria: "@Model.Materia.Titulo"</h1>
+}
+else
+{
+    <h1>Criar nova matéria</h1>
+}
+
+
+<form method="post">
+
+    <input type="hidden" asp-for="Materia.Id" />
+
+    <div class="form-group">
+        <label asp-for="Materia.Titulo"></label>
+        <input asp-for="Materia.Titulo" class="form-control" />
+        <span class="text-danger" asp-validation-for="Materia.Titulo"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Materia.Resumo"></label>
+        <input asp-for="Materia.Resumo" class="form-control" />
+        <span class="text-danger" asp-validation-for="Materia.Resumo"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Materia.Texto"></label>
+        <textarea asp-for="Materia.Texto" class="form-control" style="height:250px;"></textarea>
+        <span class="text-danger" asp-validation-for="Materia.Texto"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,7 @@
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Core\bin\Debug\netcoreapp3.1\AppStartCMD.Core.deps.json
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Core\bin\Debug\netcoreapp3.1\AppStartCMD.Core.dll
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Core\bin\Debug\netcoreapp3.1\AppStartCMD.Core.pdb
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Core\obj\Debug\netcoreapp3.1\AppStartCMD.Core.AssemblyInfoInputs.cache
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Core\obj\Debug\netcoreapp3.1\AppStartCMD.Core.AssemblyInfo.cs
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Core\obj\Debug\netcoreapp3.1\AppStartCMD.Core.dll
+C:\Users\Felipe\Desktop\GIT\AppStartCMD\AppStartCMD\AppStartCMD.Core\obj\Debug\netcoreapp3.1\AppStartCMD.Core.pdb

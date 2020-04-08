@@ -1,0 +1,15 @@
+﻿@page "{materiaId:int?}"
+@model AppStartCMD.Pages.Sections.Materias.DeleteModel
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+<div class="alert alert-danger">Tem certeza que deseja excluir a Matéria "@Model.Materia.Titulo" ?</div>
+<form method="post">
+    <input type="hidden" asp-for="Materia.Id" />
+
+    <button type="submit" class="btn btn-primary">Sim, Excluir</button>
+    <a asp-page="Index" class="btn btn-warning">Cancelar</a>
+</form>
+
